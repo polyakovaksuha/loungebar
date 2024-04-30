@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+}
+
+header {
+  width: 550px;
+  height: 80px;
+  background-color: rgb(33, 31, 31);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 40px;
+  justify-content: center;
+}
+
+header div {
+
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: 40px;
+  gap: 25px;
+}
+
+header div p:hover {
+  filter: brightness(150%);
+  color: blueviolet;
+}
+
+header div p {
+  transition: filter 0.3s;
+}
+
+.btn {
+  width: 150px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(69, 69, 91);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  margin-right: 290px;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: darkblue;
+}
+
+.first-column,
+.second-column,
+.third-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-column img,
+.second-column img,
+.third-column img {
+  height: 500px;
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+.main {
+  display: inline-flex;
+  gap: 50px;
+  margin-left: 40px;
+
+}
+
+.main img {
+  transition: filter 0.3s;
+}
+
+.main img:hover {
+  filter: brightness(150%);
+}
+
+.main p:hover {
+  filter: brightness(150%);
+}
+
+.main-photo img{
+  width:100%;
+}
+.menu-bar{
+  display: inline-flex;
+  gap: 130px;
+  margin-left:80px;
+}
+.menu-bar img
+{
+  height: 350px;
+  width: 350px;
+}
