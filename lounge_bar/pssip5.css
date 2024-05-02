@@ -400,54 +400,48 @@ header div p {
 
 }
 
-/* Медиа-запрос для мобильных устройств */
 @media screen and (max-width: 767px) {
-  /* Для заголовка */
-header {
-  flex-direction: column;
-}
+  header {
+    flex-direction: column;
+  }
 
-/* Для превью */
-.preview {
-  flex-direction: column;
-}
+  .preview {
+    flex-direction: column;
+  }
 
-/* Для кнопок */
-.group {
-  flex-direction: column;
-}
+  .group {
+    flex-direction: column;
+  }
 
-/* Для основного содержимого */
-.main {
-  display: flex;
-  flex-direction: column;
-}
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 
-/* Для меню */
-.menu-bar {
-  flex-direction: column;
-}
-/* Для картинок превью */
-.preview img {
-  height: auto;
-  max-width: 100%;
-  margin-bottom: 15px;
-  margin-top: 0;
-}
+  .menu-bar {
+    flex-direction: column;
+  }
 
-/* Для кнопок */
-.btn, .btn1, .btn-call, .input-call {
-  margin: 10px auto;
-  width: 100%;
-  justify-content: center;
-}
+  .preview img {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
 
-/* Для изображений в меню */
-.menu-bar img {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
+  .btn,
+  .btn1,
+  .btn-call,
+  .input-call {
+    margin: 10px auto;
+    width: 100%;
+    justify-content: center;
+  }
 
-  /* Ваши стили для мобильных устройств */
+  .menu-bar img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
 }
