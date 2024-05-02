@@ -399,3 +399,55 @@ header div p {
   gap: 80px;
 
 }
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 767px) {
+  /* Для заголовка */
+header {
+  flex-direction: column;
+}
+
+/* Для превью */
+.preview {
+  flex-direction: column;
+}
+
+/* Для кнопок */
+.group {
+  flex-direction: column;
+}
+
+/* Для основного содержимого */
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Для меню */
+.menu-bar {
+  flex-direction: column;
+}
+/* Для картинок превью */
+.preview img {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+/* Для кнопок */
+.btn, .btn1, .btn-call, .input-call {
+  margin: 10px auto;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Для изображений в меню */
+.menu-bar img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+  /* Ваши стили для мобильных устройств */
+}
