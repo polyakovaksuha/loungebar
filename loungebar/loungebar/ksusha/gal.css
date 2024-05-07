@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(140, 145, 149);
+}
+
+body {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+.collage {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 400px;
+}
+
+.first,
+.second,
+.third {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caption {
+    font-family: "Montserrat", sans-serif;
+
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    z-index: 1;
+}
+
+.image-container:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .caption {
+        font-size: 14px;
+    }
+
+    .collage {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+
+   
+
+    .image-container {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+}
